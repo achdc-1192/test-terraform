@@ -9,7 +9,7 @@ terraform {
 
 resource "aws_s3_bucket" "test" {
   bucket = "my-tf-test-bucket"
-  acl    = "public-read"
+  acl    = "private"
 
   tags = {
     Name        = "My bucket"
