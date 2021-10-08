@@ -1,0 +1,2 @@
+- name: Run tfsec PR commenter
+  uses: aquasecurity/tfsec-pr-commenter-action@v0.1.10
