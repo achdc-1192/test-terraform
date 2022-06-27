@@ -12,5 +12,5 @@ jobs:
       - name: tfsec
         uses: aquasecurity/tfsec-pr-commenter-action@v1.2.0
         with:
-          tfsec_args: --config-file-url https://github.com/anurag1192/customtfsecchecks/config.json
+          tfsec_args: --config-file .github/config.json
           github_token: ${{ github.token }}
